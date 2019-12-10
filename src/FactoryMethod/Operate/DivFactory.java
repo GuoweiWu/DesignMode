@@ -1,8 +1,7 @@
-package FactoryMethod;
+package FactoryMethod.Operate;
 
 import SimpleFactory.Operation;
 import SimpleFactory.OperationDiv;
-import SimpleFactory.OperationSub;
 
 public class DivFactory implements IFactory{
     @Override

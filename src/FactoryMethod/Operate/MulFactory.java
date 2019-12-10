@@ -1,8 +1,7 @@
-package FactoryMethod;
+package FactoryMethod.Operate;
 
 import SimpleFactory.Operation;
 import SimpleFactory.OperationMul;
-import SimpleFactory.OperationSub;
 
 public class MulFactory implements IFactory{
     @Override

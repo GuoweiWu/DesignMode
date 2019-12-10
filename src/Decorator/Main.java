@@ -11,6 +11,4 @@ public class Main {
         bigTrouser.Decorate(tShirts);
         bigTrouser.show();
     }
-
-
 }

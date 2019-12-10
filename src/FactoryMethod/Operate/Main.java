@@ -1,4 +1,4 @@
-package FactoryMethod;
+package FactoryMethod.Operate;
 
 import SimpleFactory.Operation;
 

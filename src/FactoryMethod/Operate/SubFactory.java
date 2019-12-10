@@ -1,7 +1,6 @@
-package FactoryMethod;
+package FactoryMethod.Operate;
 
 import SimpleFactory.Operation;
-import SimpleFactory.OperationAdd;
 import SimpleFactory.OperationSub;
 
 public class SubFactory implements IFactory{
