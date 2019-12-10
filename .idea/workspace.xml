@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e67c1dee-4ce6-4074-8bb4-7cc9ed48d90e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/CashContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/CashSuper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/Main.java" afterDir="false" />
+    <list default="true" id="e67c1dee-4ce6-4074-8bb4-7cc9ed48d90e" name="Default Changelist" comment="&quot;strategy&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Finery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/CashContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/CashContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -36,6 +37,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Decorator" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -48,7 +54,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.Main" />
+      <module name="designMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleFactory.Main" />
       <module name="designMode" />
@@ -64,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -78,8 +98,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575855615108</updated>
-      <workItem from="1575855618316" duration="6175000" />
+      <workItem from="1575855618316" duration="11778000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;strategy&quot;">
+      <created>1575861984109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575861984109</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +116,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -95,5 +148,14 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;strategy&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;strategy&quot;" />
   </component>
 </project>
