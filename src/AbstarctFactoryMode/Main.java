@@ -1,0 +1,15 @@
+package AbstarctFactoryMode;
+
+public class Main {
+    public static void main(String[] args) {
+        User user = new User();
+
+        IFactory factory = new SqlServerFactory();
+
+        ITest<User> iu = DataAccess.createUser();
+
+        iu.insert(user);
+        iu.getObject("1");
+
+    }
+}
