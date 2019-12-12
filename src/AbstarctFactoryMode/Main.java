@@ -8,6 +8,7 @@ public class Main {
 
         ITest<User> iu = DataAccess.createUser();
 
+        assert iu != null;
         iu.insert(user);
         iu.getObject("1");
 
